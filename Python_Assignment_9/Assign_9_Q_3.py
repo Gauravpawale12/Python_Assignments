@@ -21,4 +21,28 @@ def main():
 
     
 if __name__ == "__main__":
+
     main()
+
+
+'''
+#include<stdio.h>
+
+void (int iNo)
+{
+    Square = iNo * iNo;
+    printf("%d\n",Square);
+}
+
+int main()
+{
+    int iNo = 0;
+
+    printf("Enter number : \n");
+    scanf(&iNo);
+
+    Square(iNo);
+    
+
+    return 0;
+}
