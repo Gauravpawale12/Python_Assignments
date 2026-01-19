@@ -21,4 +21,32 @@ def main():
 
     
 if __name__ == "__main__":
+
     main()
+
+'''
+#include<stdio.h>
+
+int Sum_N_Numbers(int iValue)
+{
+   int iCnt = 0, Sum = 0;
+   for(iCnt = 1;iCnt <= iValue;iCnt++)
+   {
+       Sum = Sum + iCnt;
+   }
+   printf("%d",Sum);
+  
+}
+int main()
+{
+    int iNo = 0;
+    
+    printf("Enter the number : \n");
+    scanf("%d",&iNo);
+    
+    Sum_N_Numbers(iNo);
+    
+    return 0;
+}
+
+'''
