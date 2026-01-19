@@ -21,4 +21,33 @@ def main():
 
     
 if __name__ == "__main__":
+
     main()
+
+
+'''
+#include<stdio.h>
+
+int Multiplication(int iValue)
+{
+   int iCnt = 1;
+   for(iCnt = 1;iCnt <= 10;iCnt++)
+   {
+       int Mult = iValue * iCnt;
+        printf("%d\t",Mult);
+   }
+  
+}
+int main()
+{
+    int iNo = 0;
+    
+    printf("Enter the number : \n");
+    scanf("%d",&iNo);
+    
+    Multiplication(iNo);
+    
+    return 0;
+}
+
+'''
