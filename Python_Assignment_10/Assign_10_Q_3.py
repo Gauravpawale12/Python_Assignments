@@ -21,4 +21,31 @@ def main():
 
     
 if __name__ == "__main__":
+
     main()
+
+'''
+#include<stdio.h>
+
+int Fact(int iValue)
+{
+   int iCnt = 0, fact = 1;
+   for(iCnt = 1;iCnt <= iValue;iCnt++)
+   {
+       fact = fact * iCnt;
+   }
+   printf("%d",fact);
+  
+}
+int main()
+{
+    int iNo = 0;
+    
+    printf("Enter the number : \n");
+    scanf("%d",&iNo);
+    
+    Fact(iNo);
+    
+    return 0;
+}
+'''
