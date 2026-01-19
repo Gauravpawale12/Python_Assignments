@@ -28,10 +28,10 @@ if __name__ == "__main__":
 '''
 #include<stdio.h>
 
-void (int iNo)
+int Square(int iNo)
 {
-    Square = iNo * iNo;
-    printf("%d\n",Square);
+    int Sqr = iNo * iNo;
+    printf("%d\n",Sqr);
 }
 
 int main()
@@ -39,10 +39,12 @@ int main()
     int iNo = 0;
 
     printf("Enter number : \n");
-    scanf(&iNo);
+    scanf("%d",&iNo);
 
     Square(iNo);
     
 
     return 0;
 }
+'''
+
