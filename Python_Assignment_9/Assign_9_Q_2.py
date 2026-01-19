@@ -9,9 +9,11 @@ def ChkGreater(Value1,Value2):
         
             print(Value1,"is Greater")
         
-    else:
+    elif(Value1 < Value2):
         
-            print(Value2,"is Greater")  
+            print(Value2,"is Smaller")  
+    else:
+            print("Both are similar")
         
 
 def main():
@@ -40,10 +42,15 @@ void ChkGreater(int iNo1,int iNo2)
     {
         printf("%d is Greater than %d\n",iNo1,iNo2);
     }
+    else if(No1 < No2)
+    {
+        printf("%d is smaller than %d\n",iNo1,iNo2);
+    }
     else
     {
-        printf("%d is Smaller that %d\n",iNo2,iNo1);
+        printf("Both numbers are similar\n");
     }
+   
 }
 
 int main()
@@ -52,14 +59,14 @@ int main()
     
 
     printf("Enter the first number : \n");
-    scanf(iValue1);
+    scanf("%d",&iValue1);
 
     printf("Enter the second Number : \n");
-    scanf(iValue2);
+    scanf("%d",&iValue2);
 
     ChkGreater(iValue1,iValue2);
 
     return 0;
 }
-
 '''
+
