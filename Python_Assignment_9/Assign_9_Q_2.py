@@ -26,4 +26,40 @@ def main():
 
     
 if __name__ == "__main__":
+
     main()
+
+
+
+'''
+#include<stdio.h>
+
+void ChkGreater(int iNo1,int iNo2)
+{
+    if(iNo1 > iNo2)
+    {
+        printf("%d is Greater than %d\n",iNo1,iNo2);
+    }
+    else
+    {
+        printf("%d is Smaller that %d\n",iNo2,iNo1);
+    }
+}
+
+int main()
+{
+    int iValue1 = 0, iValue2 = 0;
+    
+
+    printf("Enter the first number : \n");
+    scanf(iValue1);
+
+    printf("Enter the second Number : \n");
+    scanf(iValue2);
+
+    ChkGreater(iValue1,iValue2);
+
+    return 0;
+}
+
+'''
