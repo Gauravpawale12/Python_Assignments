@@ -5,4 +5,19 @@ def main():
     print("Jay Ganesh...")
     
 if __name__ == "__main__":
+
     main()
+
+
+'''
+Also code in C language 
+
+#include<stdio.h>
+
+int main()
+{
+    printf("Jay Ganesh...\n);
+
+    return 0;
+}
+'''
