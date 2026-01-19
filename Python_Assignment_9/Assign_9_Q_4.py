@@ -21,4 +21,29 @@ def main():
 
     
 if __name__ == "__main__":
+
     main()
+
+
+'''
+// C code with same statement
+
+#include<stdio.h>
+
+int Display_Cube(int iValue)
+{
+    int Cube = iValue * iValue * iValue;
+    
+    printf("%d is cube of %d\n",Cube,iValue);
+}
+int main()
+{
+    int iNo = 0;
+    
+    printf("Enter the number : \n");
+    scanf("%d",&iNo);
+    
+    Display_Cube(iNo);
+    
+    return 0;
+}
